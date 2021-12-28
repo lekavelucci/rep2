@@ -1,1 +1,1 @@
-Над проектом работают три разработчика: First Developer, Second Developer, Third Developer
+Над проектом работают три разработчика: Кравчук Анастасия, Second Developer
