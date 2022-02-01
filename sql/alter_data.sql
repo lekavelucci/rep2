@@ -12,6 +12,7 @@ insert into usr (first_name, middle_name, last_name, email) values
 
 
 
+
 alter table usr rename column email to e_mail;
 alter table usr add constraint e_mail_unique unique(e_mail);
 alter table usr add column birth_date timestamp;

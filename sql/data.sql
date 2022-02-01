@@ -98,3 +98,15 @@ insert into role_permissions (role_name, permission_id) values
 ('editor','3'),
 ('user','3');
 
+insert into usr (first_name, middle_name, last_name, e_mail, birth_date, role_name) values
+('Валерия','Эдуардовна','Красновал','krasno@mail.ru','2003-01-20','user'),
+('Григорий','Дмитриевич','Масленко','maslenko@mail.ru','2002-09-20','user'),
+('Василий','Сергеевич','Кондратенко','kondratenko@mail.ru','2004-02-21','user'),
+('Леонид','Юрьевич','Камбербетч','kamber@mail.ru','2000-01-30','user'),
+('Андрей','Артемович','Громов','gromov@mail.ru','2009-01-12','user'),
+('Леонтий','Станиславович','Черный','black@mail.ru','2007-12-20','user'),
+('Татьяна','Дмитриевна','Белая','white@mail.ru','2008-01-20','user'),
+('Иван','Валерьевич','Фиолетовый','purple@mail.ru','2012-01-20','user'),
+('Юлия','Константинович','Лойд','loyd@mail.ru','2015-11-20','user'),
+('Владислав','Викторович','Комут','komut@mail.ru','2016-01-20','user');
+
