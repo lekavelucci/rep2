@@ -97,3 +97,5 @@ insert into address (user_id, zip_code, city, street, building, flat) values
 ('36', '29600', 'Симферополь', '13', '5', '12'),
 ('37', '29600', 'Симферополь', '102', '25', '4'),
 ('38', '29600', 'Симферополь', '33', '2', '63');
+
+alter table address add constraint FK_address_usr foreign key (user_id) references usr;
